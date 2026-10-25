@@ -26,3 +26,7 @@ Editor gambar/logo (kanvas + layer + shape + teks), keyframe, chroma key, auto-c
 engine/MediaImporter.kt menyalin file pilihan user (video/gambar/audio) ke penyimpanan app, membuat thumbnail + membaca durasi.
 ui/MediaLibraryScreen.kt: tombol upload + grid pustaka; Project.addAsset() menaruh aset ke timeline.
 Ikon app: res/mipmap-* (dibuat dari gambar logo V), nama app: Vynora.
+
+## Build tanpa Android Studio (GitHub Actions)
+Push semua isi folder ini ke repo GitHub -> tab Actions -> "Build APK" -> Run workflow.
+Selesai (~5-8 menit): buka run-nya -> Artifacts -> Vynora-debug-apk -> unduh, ekstrak, install APK.
